@@ -1,4 +1,4 @@
-package HW01;
+package ExchangeMoney;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,14 +12,14 @@ public class FileWriterClass {
 	
 	public FileWriterClass() {
 		try {
-			File file = new File("d:\\exchange.csv");
+			File file = new File("D:\\exchangeresult\\exchange.csv");
 			
 			if(file.exists() == false) {
 				isFileExist = false;
 			} else {
 				isFileExist = true;
 			}
-			fw = new FileWriter("d:\\exchange.csv", true);
+			fw = new FileWriter("D:\\exchangeresult\\exchange.csv", true);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

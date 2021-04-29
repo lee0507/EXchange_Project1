@@ -1,9 +1,9 @@
-package HW01;
+package ExchangeMoney;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class newnewdollar {
+public class mainClass {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

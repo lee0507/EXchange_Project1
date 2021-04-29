@@ -1,4 +1,4 @@
-package HW01;
+package ExchangeMoney;
 
 public class exchangeType {
 	double inputWon;//입력받은 원화

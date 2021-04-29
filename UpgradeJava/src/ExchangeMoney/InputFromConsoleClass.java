@@ -1,4 +1,4 @@
-package HW01;
+package ExchangeMoney;
 
 import java.util.Scanner;
 

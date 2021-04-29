@@ -1,4 +1,4 @@
-package HW01;
+package ExchangeMoney;
 
 public class ProcessingClass {
 	OutputClass op = null;
@@ -23,7 +23,7 @@ public class ProcessingClass {
 	}
 	
 	public int changeJPY(double won) {
-		int changeJPY = (int)(won / ConstValueClass.EX_RATE_JPY);
+		int changeJPY = ((int)(won / ConstValueClass.EX_RATE_JPY / 1000)) * 1000;
 		return changeJPY;//환전금액
 	}
 	

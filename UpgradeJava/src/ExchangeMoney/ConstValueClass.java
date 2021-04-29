@@ -1,4 +1,4 @@
-package HW01;
+package ExchangeMoney;
 
 public class ConstValueClass {
 	final static int EX_TYPE_EXIT = 0;
